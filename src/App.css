@@ -1,0 +1,77 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #0e1012;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex; /* Aligns items in a row */
+  justify-content: center; /* Centers the items horizontally */
+  gap: 20px; /* Adds space between the links */
+  margin-top: 20px; /* Adds space above the nav */
+}
+
+nav a {
+  margin: 0 10px;
+  font-size: 1.5rem; /* Makes the font larger */
+  color: blue; /* Changes the text color to white */
+  text-decoration: none; /* Removes underline from links */
+  padding: 10px; /* Adds padding around the text */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  border-bottom: 2px solid #282c34;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
